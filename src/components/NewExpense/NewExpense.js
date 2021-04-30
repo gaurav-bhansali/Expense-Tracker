@@ -3,6 +3,7 @@ import ExpenseForm from "./ExpenseForm";
 import "./NewExpense.css";
 const NewExpense = (props) => {
   const [toggleExpenseForm, setToggleExpenseForm] = useState(false);
+
   const saveExpenseDataHandler = (enteredExpenseData) => {
     const expenseData = {
       ...enteredExpenseData,
